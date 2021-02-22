@@ -1,0 +1,260 @@
+/* -------------------
+--- Layout ---
+---------------------- */
+html, body {
+	height: 100%;
+	overflow-x: hidden; 
+}
+body {
+	background: url(../img/pexels-markus-spiske-1936299-2.png), 
+				linear-gradient(50deg, #98FB98, #2E8B57);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* -------------------
+--- Barra de navegação ---
+---------------------- */
+.navbar-light .navbar-brand {
+    color: rgba(255,255,255,.9);
+}
+
+nav.navbar-transparente {
+	padding: 15px, 0px;
+	background: rgba(0,0,0,0.4);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #DCDCDC;
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(255,255,255,0.5);
+	border-color: rgba(255,255,255,0.5);
+}
+
+/* -------------------
+--- Menu Topo ---
+---------------------- */
+
+.menu_top {
+	height: 200px;
+
+	margin-top: 56px;
+	padding: 15px;
+	background: rgba(0,0,0,0.6);
+}
+
+
+
+h2 {
+	color: rgba(255,255,255,0.9);
+}
+
+.menu_top p {
+	color: rgba(169,169,169,0.9);
+	font-style: italic;
+}
+
+/* -------------------
+--- Section ---
+---------------------- */
+
+.status_email {
+	margin-top: 58px;
+}
+
+.section-container {
+	background: rgba(0,0,0,0.4);
+	padding: 15px;
+}
+
+.marker {
+	margin: 10px 30px;
+	padding: 15px; 
+	background: rgba(255,255,255,0.2);
+
+	}
+.marker h2{
+	text-align: center;
+}
+
+.card-header{
+	font-size: 1.5em;
+	color: rgba(218,165,32,1);
+}
+
+.card-title {
+	color: rgba(255,255,255,0.8);
+}
+
+.card-img-top {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 280px; 
+    height: 150px;
+}
+
+.perfil {
+	background-color: rgba(240,230,140,0.7);
+	margin: 10px 15px;
+}
+
+.portfolio-abstract{
+	background-color: rgba(255,255,255,0.4);
+	color:  rgba(255,255,255,0.9);
+	padding: 15px;
+}
+
+.portfolio-dev{
+	
+	color:  rgba(255,255,255,0.9);
+	padding: 15px;
+}
+
+.portfolio-title {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: rgba(255,255,255,0.9);
+}
+
+.carousel-inner img{
+	margin: auto;
+}
+
+.portfolio-img{
+	width: 345px;
+	height: 250px;
+}
+
+.destaque-img {
+	width: auto;
+	height: 250px;
+}
+
+.portfolio-text{
+	font-size: 1em;
+	color: rgba(211,211,211,1);
+}
+
+.portfolio-video {
+	margin: 15px;
+}
+
+.portfolio-share{
+	padding: 15px;
+	
+}
+
+a.portfolio-link, a:visited.portfolio-link{
+	text-decoration: none;
+	color: rgba(218,165,32,1);
+
+}
+
+a:hover.portfolio-link{
+	color: rgba(211,211,211,1);
+}
+
+section h6 {
+	color:  rgba(218,165,32,1);
+}
+
+section p{
+	color: rgba(211,211,211,1);
+}
+
+section div h1{
+	color: rgba(255,255,255,0.9);
+}
+
+section p.sobre{
+	color: rgba(54,54,54,1);
+	font-size: 0.8em;
+}
+
+section .form-group-contato{
+	background-color: rgba(255,255,255,0.4);
+	margin: 10px 15px;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+
+}
+
+section .form-control {
+	width: 250px;
+	margin-bottom: 15px; 
+}
+
+
+/* -------------------
+--- Footer ---
+---------------------- */
+
+footer {
+	padding-left: 15px ;
+	padding-top: 17px; 
+	padding-bottom: 1px;
+	background: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.7);
+}
+
+
+
+/* -------------------
+--- Footer ---
+---------------------- */
+
+
+@media (max-width: 575.98px) { 
+	.menu_top {
+		height: 250px;
+	}
+
+	.marker {
+		margin: 10px 5px;
+		padding: 15px; 
+	}
+
+	.portfolio-img {
+		width: 280px;
+		height: 150px;
+
+	}
+
+	.destaque-img {
+		width: 280px;
+		height: 150px;
+	}
+}
+
+@media (max-width: 300px) { 
+	.menu_top {
+		margin-top: 86px;	
+	}
+
+
+	.card-img-top {
+		width: 200px;
+		height: 100px;
+	}
+
+	.portfolio-img {
+		width: 250px;
+		height: 150px;
+
+	}
+
+	.destaque-img {
+		width: 250px;
+		height: 150px;
+	}
+
+}
+
